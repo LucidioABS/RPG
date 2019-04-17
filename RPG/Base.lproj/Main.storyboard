@@ -233,7 +233,7 @@
                                                 <rect key="frame" x="21" y="415" width="332" height="252"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MR0-kg-o0h" userLabel="NomeArma">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="MR0-kg-o0h" userLabel="NomeArma">
                                                         <rect key="frame" x="0.0" y="0.0" width="332" height="252"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -257,7 +257,8 @@
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
-                        <outlet property="noteTextView" destination="MR0-kg-o0h" id="nGn-zD-epp"/>
+                        <outlet property="grandTextView" destination="MR0-kg-o0h" id="Gap-Qr-q5e"/>
+                        <outlet property="noteTextView" destination="vbu-gS-ZI3" id="iAI-TD-Xl1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
