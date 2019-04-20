@@ -15,16 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RPG" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L8w-3V-M1O">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L8w-3V-M1O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6gq-yw-Jq3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6gq-yw-Jq3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kmj-Nu-6qp" userLabel="CA">
                                                 <rect key="frame" x="21" y="36" width="102" height="82"/>
@@ -234,7 +232,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="MR0-kg-o0h" userLabel="NomeArma">
-                                                        <rect key="frame" x="0.0" y="0.0" width="332" height="252"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="332" height="573"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -248,14 +246,30 @@
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="tzT-w0-GiM"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="6gq-yw-Jq3" firstAttribute="leading" secondItem="L8w-3V-M1O" secondAttribute="leading" id="H5A-Qf-Aqd"/>
+                                    <constraint firstAttribute="trailing" secondItem="6gq-yw-Jq3" secondAttribute="trailing" id="fqW-I5-alG"/>
+                                    <constraint firstItem="6gq-yw-Jq3" firstAttribute="top" secondItem="L8w-3V-M1O" secondAttribute="top" id="fte-1W-uhO"/>
+                                    <constraint firstAttribute="bottom" secondItem="6gq-yw-Jq3" secondAttribute="bottom" id="nTE-dv-xdt"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L8w-3V-M1O" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="9TS-SE-Ne9"/>
+                            <constraint firstItem="6gq-yw-Jq3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="jhy-WJ-IzV"/>
+                            <constraint firstItem="L8w-3V-M1O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mSL-7t-eXO"/>
+                            <constraint firstItem="L8w-3V-M1O" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="tvA-mZ-1Vh"/>
+                            <constraint firstItem="L8w-3V-M1O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wHV-Qc-RHh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <size key="freeformSize" width="375" height="667"/>
+                    <size key="freeformSize" width="375" height="1000"/>
                     <connections>
                         <outlet property="grandTextView" destination="MR0-kg-o0h" id="Gap-Qr-q5e"/>
                         <outlet property="noteTextView" destination="vbu-gS-ZI3" id="iAI-TD-Xl1"/>
@@ -263,7 +277,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
+            <point key="canvasLocation" x="136.80000000000001" y="129.53523238380811"/>
         </scene>
     </scenes>
 </document>
