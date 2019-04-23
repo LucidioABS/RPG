@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFEF970226652AC002831A0 /* DND.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEF96F226652AC002831A0 /* DND.swift */; };
+		0DFEFA33226654F8002831A0 /* 5e-SRD-Features.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA11226654F8002831A0 /* 5e-SRD-Features.json */; };
+		0DFEFA34226654F8002831A0 /* spellchecking.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA12226654F8002831A0 /* spellchecking.txt */; };
+		0DFEFA36226654F8002831A0 /* 5e-SRD-Spells.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA14226654F8002831A0 /* 5e-SRD-Spells.json */; };
+		0DFEFA37226654F8002831A0 /* 5e-SRD-Levels.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA15226654F8002831A0 /* 5e-SRD-Levels.json */; };
+		0DFEFA38226654F8002831A0 /* 5e-SRD-Skills.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA16226654F8002831A0 /* 5e-SRD-Skills.json */; };
+		0DFEFA39226654F8002831A0 /* 5e-SRD-Monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA17226654F8002831A0 /* 5e-SRD-Monsters.json */; };
+		0DFEFA3A226654F8002831A0 /* 5e-SRD-Subclasses.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA18226654F8002831A0 /* 5e-SRD-Subclasses.json */; };
+		0DFEFA3C226654F8002831A0 /* 5e-SRD-Spellcasting.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA1A226654F8002831A0 /* 5e-SRD-Spellcasting.json */; };
+		0DFEFA3D226654F8002831A0 /* 5e-SRD-Races.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA1B226654F8002831A0 /* 5e-SRD-Races.json */; };
+		0DFEFA3E226654F8002831A0 /* 5e-SRD-Languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA1C226654F8002831A0 /* 5e-SRD-Languages.json */; };
+		0DFEFA3F226654F8002831A0 /* 5e-SRD-Magic-Schools.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA1D226654F8002831A0 /* 5e-SRD-Magic-Schools.json */; };
+		0DFEFA40226654F8002831A0 /* 5e-SRD-Equipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA1E226654F8002831A0 /* 5e-SRD-Equipment.json */; };
+		0DFEFA41226654F8002831A0 /* 5e-SRD-Equipment-Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA1F226654F8002831A0 /* 5e-SRD-Equipment-Categories.json */; };
+		0DFEFA43226654F8002831A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA21226654F8002831A0 /* README.md */; };
+		0DFEFA44226654F8002831A0 /* 5e-SRD-Traits.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA22226654F8002831A0 /* 5e-SRD-Traits.json */; };
+		0DFEFA46226654F8002831A0 /* 5e-SRD-StartingEquipment.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA24226654F8002831A0 /* 5e-SRD-StartingEquipment.json */; };
+		0DFEFA48226654F8002831A0 /* 5e-SRD-Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA26226654F8002831A0 /* 5e-SRD-Test.json */; };
+		0DFEFA49226654F8002831A0 /* 5e-SRD-Damage-Types.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA27226654F8002831A0 /* 5e-SRD-Damage-Types.json */; };
+		0DFEFA4B226654F8002831A0 /* 5e-SRD-Ability-Scores.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA29226654F8002831A0 /* 5e-SRD-Ability-Scores.json */; };
+		0DFEFA4C226654F8002831A0 /* 5e-SRD-Proficiencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA2A226654F8002831A0 /* 5e-SRD-Proficiencies.json */; };
+		0DFEFA4D226654F8002831A0 /* 5e-SRD-Classes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA2B226654F8002831A0 /* 5e-SRD-Classes.json */; };
+		0DFEFA50226654F8002831A0 /* 5e-SRD-Subraces.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA2E226654F8002831A0 /* 5e-SRD-Subraces.json */; };
+		0DFEFA51226654F8002831A0 /* 5e-SRD-Weapon-Properties.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA2F226654F8002831A0 /* 5e-SRD-Weapon-Properties.json */; };
+		0DFEFA53226654F8002831A0 /* mit.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA31226654F8002831A0 /* mit.md */; };
+		0DFEFA54226654F8002831A0 /* 5e-SRD-Conditions.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA32226654F8002831A0 /* 5e-SRD-Conditions.json */; };
 		5EEA5E99225F789E0085C218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA5E98225F789E0085C218 /* AppDelegate.swift */; };
 		5EEA5E9B225F789E0085C218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEA5E9A225F789E0085C218 /* ViewController.swift */; };
 		5EEA5E9E225F789E0085C218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEA5E9C225F789E0085C218 /* Main.storyboard */; };
@@ -16,6 +42,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DFEF96F226652AC002831A0 /* DND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DND.swift; sourceTree = "<group>"; };
+		0DFEFA11226654F8002831A0 /* 5e-SRD-Features.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Features.json"; sourceTree = "<group>"; };
+		0DFEFA12226654F8002831A0 /* spellchecking.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spellchecking.txt; sourceTree = "<group>"; };
+		0DFEFA14226654F8002831A0 /* 5e-SRD-Spells.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Spells.json"; sourceTree = "<group>"; };
+		0DFEFA15226654F8002831A0 /* 5e-SRD-Levels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Levels.json"; sourceTree = "<group>"; };
+		0DFEFA16226654F8002831A0 /* 5e-SRD-Skills.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Skills.json"; sourceTree = "<group>"; };
+		0DFEFA17226654F8002831A0 /* 5e-SRD-Monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Monsters.json"; sourceTree = "<group>"; };
+		0DFEFA18226654F8002831A0 /* 5e-SRD-Subclasses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Subclasses.json"; sourceTree = "<group>"; };
+		0DFEFA1A226654F8002831A0 /* 5e-SRD-Spellcasting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Spellcasting.json"; sourceTree = "<group>"; };
+		0DFEFA1B226654F8002831A0 /* 5e-SRD-Races.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Races.json"; sourceTree = "<group>"; };
+		0DFEFA1C226654F8002831A0 /* 5e-SRD-Languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Languages.json"; sourceTree = "<group>"; };
+		0DFEFA1D226654F8002831A0 /* 5e-SRD-Magic-Schools.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Magic-Schools.json"; sourceTree = "<group>"; };
+		0DFEFA1E226654F8002831A0 /* 5e-SRD-Equipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Equipment.json"; sourceTree = "<group>"; };
+		0DFEFA1F226654F8002831A0 /* 5e-SRD-Equipment-Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Equipment-Categories.json"; sourceTree = "<group>"; };
+		0DFEFA21226654F8002831A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0DFEFA22226654F8002831A0 /* 5e-SRD-Traits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Traits.json"; sourceTree = "<group>"; };
+		0DFEFA24226654F8002831A0 /* 5e-SRD-StartingEquipment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-StartingEquipment.json"; sourceTree = "<group>"; };
+		0DFEFA26226654F8002831A0 /* 5e-SRD-Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Test.json"; sourceTree = "<group>"; };
+		0DFEFA27226654F8002831A0 /* 5e-SRD-Damage-Types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Damage-Types.json"; sourceTree = "<group>"; };
+		0DFEFA29226654F8002831A0 /* 5e-SRD-Ability-Scores.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Ability-Scores.json"; sourceTree = "<group>"; };
+		0DFEFA2A226654F8002831A0 /* 5e-SRD-Proficiencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Proficiencies.json"; sourceTree = "<group>"; };
+		0DFEFA2B226654F8002831A0 /* 5e-SRD-Classes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Classes.json"; sourceTree = "<group>"; };
+		0DFEFA2E226654F8002831A0 /* 5e-SRD-Subraces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Subraces.json"; sourceTree = "<group>"; };
+		0DFEFA2F226654F8002831A0 /* 5e-SRD-Weapon-Properties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Weapon-Properties.json"; sourceTree = "<group>"; };
+		0DFEFA31226654F8002831A0 /* mit.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = mit.md; sourceTree = "<group>"; };
+		0DFEFA32226654F8002831A0 /* 5e-SRD-Conditions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Conditions.json"; sourceTree = "<group>"; };
 		5EEA5E95225F789E0085C218 /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEA5E98225F789E0085C218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EEA5E9A225F789E0085C218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,9 +110,43 @@
 		0DFEF95122660DDC002831A0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0DFEFA10226654F8002831A0 /* 5e-database-master */,
 				5EEA5E9F225F789E0085C218 /* RPG.xcdatamodeld */,
+				0DFEF96F226652AC002831A0 /* DND.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0DFEFA10226654F8002831A0 /* 5e-database-master */ = {
+			isa = PBXGroup;
+			children = (
+				0DFEFA12226654F8002831A0 /* spellchecking.txt */,
+				0DFEFA29226654F8002831A0 /* 5e-SRD-Ability-Scores.json */,
+				0DFEFA2B226654F8002831A0 /* 5e-SRD-Classes.json */,
+				0DFEFA32226654F8002831A0 /* 5e-SRD-Conditions.json */,
+				0DFEFA27226654F8002831A0 /* 5e-SRD-Damage-Types.json */,
+				0DFEFA1F226654F8002831A0 /* 5e-SRD-Equipment-Categories.json */,
+				0DFEFA1E226654F8002831A0 /* 5e-SRD-Equipment.json */,
+				0DFEFA11226654F8002831A0 /* 5e-SRD-Features.json */,
+				0DFEFA1C226654F8002831A0 /* 5e-SRD-Languages.json */,
+				0DFEFA15226654F8002831A0 /* 5e-SRD-Levels.json */,
+				0DFEFA1D226654F8002831A0 /* 5e-SRD-Magic-Schools.json */,
+				0DFEFA17226654F8002831A0 /* 5e-SRD-Monsters.json */,
+				0DFEFA2A226654F8002831A0 /* 5e-SRD-Proficiencies.json */,
+				0DFEFA1B226654F8002831A0 /* 5e-SRD-Races.json */,
+				0DFEFA16226654F8002831A0 /* 5e-SRD-Skills.json */,
+				0DFEFA1A226654F8002831A0 /* 5e-SRD-Spellcasting.json */,
+				0DFEFA14226654F8002831A0 /* 5e-SRD-Spells.json */,
+				0DFEFA24226654F8002831A0 /* 5e-SRD-StartingEquipment.json */,
+				0DFEFA18226654F8002831A0 /* 5e-SRD-Subclasses.json */,
+				0DFEFA2E226654F8002831A0 /* 5e-SRD-Subraces.json */,
+				0DFEFA26226654F8002831A0 /* 5e-SRD-Test.json */,
+				0DFEFA22226654F8002831A0 /* 5e-SRD-Traits.json */,
+				0DFEFA2F226654F8002831A0 /* 5e-SRD-Weapon-Properties.json */,
+				0DFEFA31226654F8002831A0 /* mit.md */,
+				0DFEFA21226654F8002831A0 /* README.md */,
+			);
+			path = "5e-database-master";
 			sourceTree = "<group>";
 		};
 		5EEA5E8C225F789E0085C218 = {
@@ -149,9 +235,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFEFA36226654F8002831A0 /* 5e-SRD-Spells.json in Resources */,
+				0DFEFA49226654F8002831A0 /* 5e-SRD-Damage-Types.json in Resources */,
+				0DFEFA43226654F8002831A0 /* README.md in Resources */,
+				0DFEFA50226654F8002831A0 /* 5e-SRD-Subraces.json in Resources */,
+				0DFEFA33226654F8002831A0 /* 5e-SRD-Features.json in Resources */,
+				0DFEFA3C226654F8002831A0 /* 5e-SRD-Spellcasting.json in Resources */,
+				0DFEFA48226654F8002831A0 /* 5e-SRD-Test.json in Resources */,
+				0DFEFA37226654F8002831A0 /* 5e-SRD-Levels.json in Resources */,
 				5EEA5EA6225F789F0085C218 /* LaunchScreen.storyboard in Resources */,
+				0DFEFA3F226654F8002831A0 /* 5e-SRD-Magic-Schools.json in Resources */,
+				0DFEFA41226654F8002831A0 /* 5e-SRD-Equipment-Categories.json in Resources */,
+				0DFEFA51226654F8002831A0 /* 5e-SRD-Weapon-Properties.json in Resources */,
+				0DFEFA46226654F8002831A0 /* 5e-SRD-StartingEquipment.json in Resources */,
 				5EEA5EA3225F789F0085C218 /* Assets.xcassets in Resources */,
+				0DFEFA44226654F8002831A0 /* 5e-SRD-Traits.json in Resources */,
+				0DFEFA39226654F8002831A0 /* 5e-SRD-Monsters.json in Resources */,
 				5EEA5E9E225F789E0085C218 /* Main.storyboard in Resources */,
+				0DFEFA34226654F8002831A0 /* spellchecking.txt in Resources */,
+				0DFEFA4D226654F8002831A0 /* 5e-SRD-Classes.json in Resources */,
+				0DFEFA40226654F8002831A0 /* 5e-SRD-Equipment.json in Resources */,
+				0DFEFA4B226654F8002831A0 /* 5e-SRD-Ability-Scores.json in Resources */,
+				0DFEFA4C226654F8002831A0 /* 5e-SRD-Proficiencies.json in Resources */,
+				0DFEFA38226654F8002831A0 /* 5e-SRD-Skills.json in Resources */,
+				0DFEFA3D226654F8002831A0 /* 5e-SRD-Races.json in Resources */,
+				0DFEFA54226654F8002831A0 /* 5e-SRD-Conditions.json in Resources */,
+				0DFEFA3A226654F8002831A0 /* 5e-SRD-Subclasses.json in Resources */,
+				0DFEFA3E226654F8002831A0 /* 5e-SRD-Languages.json in Resources */,
+				0DFEFA53226654F8002831A0 /* mit.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +275,7 @@
 			files = (
 				5EEA5EA1225F789E0085C218 /* RPG.xcdatamodeld in Sources */,
 				5EEA5E9B225F789E0085C218 /* ViewController.swift in Sources */,
+				0DFEF970226652AC002831A0 /* DND.swift in Sources */,
 				5EEA5E99225F789E0085C218 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,7 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SMM55X2K37;
+				DEVELOPMENT_TEAM = XCSQ883CT6;
 				INFOPLIST_FILE = RPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SMM55X2K37;
+				DEVELOPMENT_TEAM = XCSQ883CT6;
 				INFOPLIST_FILE = RPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,12 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+  
+  // MARK: - Static properties
+  
+  // MARK: - Public Properties
+  
+  // MARK: - Public Methods
+  
+  // MARK: - Initialisation/Lifecycle Methods
+  
+  // MARK: - Override Methods
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    // Do any additional setup after loading the view.
+  }
+  
+  // MARK: - Private Properties
+  
+  // MARK: - Private Methods
 
 }
 
