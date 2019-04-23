@@ -23,6 +23,14 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
+    let abilityScores = DND.dnd.abilityScores
+    
+    for abilityScore in abilityScores {
+        print(abilityScore.fullName)
+        for description in abilityScore.descriptions {
+            print(description)
+        }
+    }
   }
   
   // MARK: - Private Properties
