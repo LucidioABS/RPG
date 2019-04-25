@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DA36F74226F67B700B14010 /* AbilityScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA36F73226F67B700B14010 /* AbilityScores.swift */; };
+		0D67CC6D227238C6000D51B4 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67CC6C227238C6000D51B4 /* Skill.swift */; };
+		0DA36F74226F67B700B14010 /* AbilityScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA36F73226F67B700B14010 /* AbilityScore.swift */; };
 		0DFEF970226652AC002831A0 /* DND.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEF96F226652AC002831A0 /* DND.swift */; };
 		0DFEFA33226654F8002831A0 /* 5e-SRD-Features.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA11226654F8002831A0 /* 5e-SRD-Features.json */; };
 		0DFEFA34226654F8002831A0 /* spellchecking.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFA12226654F8002831A0 /* spellchecking.txt */; };
@@ -43,7 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DA36F73226F67B700B14010 /* AbilityScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityScores.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
+		0D67CC6C227238C6000D51B4 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		0DA36F73226F67B700B14010 /* AbilityScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbilityScore.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 		0DFEF96F226652AC002831A0 /* DND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DND.swift; sourceTree = "<group>"; };
 		0DFEFA11226654F8002831A0 /* 5e-SRD-Features.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "5e-SRD-Features.json"; sourceTree = "<group>"; };
 		0DFEFA12226654F8002831A0 /* spellchecking.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spellchecking.txt; sourceTree = "<group>"; };
@@ -94,7 +96,8 @@
 		0DA36F72226F5AC200B14010 /* JSONClasses */ = {
 			isa = PBXGroup;
 			children = (
-				0DA36F73226F67B700B14010 /* AbilityScores.swift */,
+				0DA36F73226F67B700B14010 /* AbilityScore.swift */,
+				0D67CC6C227238C6000D51B4 /* Skill.swift */,
 			);
 			path = JSONClasses;
 			sourceTree = "<group>";
@@ -287,7 +290,8 @@
 				5EEA5EA1225F789E0085C218 /* RPG.xcdatamodeld in Sources */,
 				5EEA5E9B225F789E0085C218 /* ViewController.swift in Sources */,
 				0DFEF970226652AC002831A0 /* DND.swift in Sources */,
-				0DA36F74226F67B700B14010 /* AbilityScores.swift in Sources */,
+				0D67CC6D227238C6000D51B4 /* Skill.swift in Sources */,
+				0DA36F74226F67B700B14010 /* AbilityScore.swift in Sources */,
 				5EEA5E99225F789E0085C218 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

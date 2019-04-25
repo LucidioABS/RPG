@@ -9,33 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
-  
-  // MARK: - Static properties
-  
-  // MARK: - Public Properties
-  
-  // MARK: - Public Methods
-  
-  // MARK: - Initialisation/Lifecycle Methods
-  
-  // MARK: - Override Methods
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-    let abilityScores = DND.dnd.abilityScores
     
-    for abilityScore in abilityScores {
-        print(abilityScore.fullName)
-        for description in abilityScore.descriptions {
-            print(description)
-        }
-    }
-  }
-  
-  // MARK: - Private Properties
-  
-  // MARK: - Private Methods
+    // MARK: - Static properties
 
+    // MARK: - Public Properties
+
+    // MARK: - Public Methods
+
+    // MARK: - Initialisation/Lifecycle Methods
+
+    // MARK: - Override Methods
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+    }
+
+    // MARK: - Private Properties
+
+    // MARK: - Private Methods
+    
 }
 

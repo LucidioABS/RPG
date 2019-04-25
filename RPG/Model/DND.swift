@@ -12,18 +12,20 @@ class DND {
     
     // MARK: - Static properties
     
-    static let dnd = DND()
+    static let shared = DND()
     
     // MARK: - Public Properties
 
     let abilityScores: [AbilityScore]
+    let skills: [Skill]
     
     // MARK: - Public Methods
     
     // MARK: - Initialisation/Lifecycle Methods
     
     private init() {
-        self.abilityScores = AbilityScore.abilityScores
+        self.abilityScores = AbilityScore.shared
+        self.skills = Skill.shared
     }
     
     // MARK: - Override Methods
@@ -33,5 +35,3 @@ class DND {
     // MARK: - Private Methods
     
 }
-
-//fileprivate var privateDND = DND()
