@@ -1,22 +1,22 @@
 //
-//  AbilityScore.swift
+//  Trait.swift
 //  RPG
 //
-//  Created by Jezreel de Oliveira Barbosa on 23/04/19.
+//  Created by Jezreel de Oliveira Barbosa on 26/04/19.
 //  Copyright © 2019 Lucídio Andrade Barbosa de Souza. All rights reserved.
 //
 
 import Foundation
 
-class AbilityScore: Codable {
+class Trait: Codable {
+    
     // MARK: - Static properties
     
-    static let jsonResource = "5e-SRD-Ability-Scores"
+    static let jsonResource = "5e-SRD-Traits"
     
     // MARK: - Public Types
     
-    struct SkillReference: Codable {
-        let url: URL
+    struct Race: Codable {
         let name: String
     }
     
@@ -24,10 +24,8 @@ class AbilityScore: Codable {
     
     let index: Int
     let name: String
-    let fullName: String
     let descriptions: [String]
-    let skillsReference: [SkillReference]
-    let url: URL
+    let races: [Race]
     
     // MARK: - Public Methods
     
@@ -40,10 +38,8 @@ class AbilityScore: Codable {
     private enum CodingKeys: String, CodingKey {
         case index = "index"
         case name = "name"
-        case fullName = "full_name"
         case descriptions = "desc"
-        case skillsReference = "skills"
-        case url = "url"
+        case races = "races"
     }
     
     // MARK: - Private Properties

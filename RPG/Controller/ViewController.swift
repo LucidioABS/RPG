@@ -23,7 +23,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        for type in DND.shared.languages {
+            print(type.typicalSpeakers)
+        }
     }
 
     // MARK: - Private Properties

@@ -11,7 +11,7 @@ import Foundation
 class Skill: Codable {
     // MARK: - Static properties
     
-    static let shared = Skill.decodeJSONFile()
+    static let jsonResource = "5e-SRD-Skills"
     
     // MARK: - Public Types
     
@@ -47,18 +47,4 @@ class Skill: Codable {
     // MARK: - Private Properties
     
     // MARK: - Private Methods
-    
-    private class func decodeJSONFile() -> [Skill] {
-        if let path = Bundle.main.path(forResource: "5e-SRD-Skills", ofType: "json"),
-            let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe),
-            let skills = try? JSONDecoder().decode([Skill].self, from: data) {
-            // do the thing
-            return skills.sorted(by: {$0.index < $1.index})
-        }
-        else {
-            // handle error
-            print("error")
-            return []
-        }
-    }
 }
